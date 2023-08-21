@@ -28,4 +28,3 @@ jobs:
         run: |
            echo "Firstname is ${{secrets.flow_one.MYNAME}}"
            echo "Lastname is ${{secrets.flow_one.MYSURNAME}}"
-          echo test, and deploy your project.
