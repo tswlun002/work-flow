@@ -10,5 +10,5 @@ on:
           run: echo Hello world!
         - name: run a multi-line script
           run:  |
-            echo add other actions to build
-            echo Run a multi-line script
+            echo "Firstname is ${{flow_one.MYNAME}}"
+            echo "Lastname is ${{flow_one.MYSURNAME}}"
