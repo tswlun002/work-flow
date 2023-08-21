@@ -28,4 +28,3 @@ jobs:
         run: |
            echo ${{secrets.FIRSTNAME}}
            echo ${{secrets.FIRSTNAME}}
-           echo "Lastname is ${{secrets.LASTNAME}}"
